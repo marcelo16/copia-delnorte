@@ -23,15 +23,19 @@ header {
 header .barra-superior {
     position: relative;
     width: 100%;
-    height: 40px;
+    height: auto;
     background: #005a93;
+    max-height: 80px;
+    min-height: 40px;
+    overflow: hidden;
 }
 
 header .barra-menu {
     position: relative;
     width: 100%;
-    height: 120px;
+    height: auto;
     background:#fff;
+    padding: 10px 0;
 }
 
 div .limite-largura {
@@ -53,6 +57,23 @@ header .barra-superior a.link {
 }
 
 header .barra-menu img {
-    margin: 34px;
+    margin: 0;
+    display: block;
+    float: left;
+}
 
+header .barra-menu .menu-superior {
+    position: relative;
+    width: calc(100% - 152px);
+    height: auto;
+    padding: 10px;
+    margin-left: 152px;
+}
+
+header .barra-menu .menu-superior a.link {
+    font-size: 16px;
+    line-height: 16px;
+    display: table; 
+    padding: 18px;
+    float: right;
 }
