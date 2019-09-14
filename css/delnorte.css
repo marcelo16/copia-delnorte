@@ -14,10 +14,12 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
 header {
-    position:fixed;
+    position: relative;
     width: 100%;
     height: auto;
+    z-index: 99999;
 }
 
 header .barra-superior {
@@ -34,7 +36,7 @@ header .barra-menu {
     position: relative;
     width: 100%;
     height: auto;
-    background:#fff;
+    background: #fff;
     padding: 10px 0;
 }
 
@@ -53,13 +55,21 @@ header .barra-superior a.link {
     line-height: 40px;
     font-family: sans-serif;
     padding: 0 8px;
-    font-size: 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .barra-superior a.link:hover {
+background: #f7a519;
+color: #fff;
 }
 
 header .barra-menu img {
     margin: 0;
-    display: block;
-    float: left;
+    cursor: pointer;
 }
 
 header .barra-menu .menu-superior {
@@ -67,13 +77,25 @@ header .barra-menu .menu-superior {
     width: calc(100% - 152px);
     height: auto;
     padding: 10px;
-    margin-left: 152px;
+    float: right;
 }
 
 header .barra-menu .menu-superior a.link {
     font-size: 16px;
     line-height: 16px;
-    display: table; 
+    display: table;
     padding: 18px;
     float: right;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #005a93;
+    border-radius: 5px;
 }
+
+header .barra-menu .menu-superior a.link:hover {
+    background: #005a93;
+    color: #fff;
+}
+
