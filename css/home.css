@@ -5,11 +5,16 @@ main {
     overflow: auto;
 }
 
-main .banner {
+main .banner,
+main .ofertas,
+main .cartoes-oferta {
     position: relative;
     height: auto;
     width: 100%;
+}
 
+main .cartoes-oferta{
+    margin-bottom: 50px;
 }
 
 main .banner img.banner-img {
@@ -17,4 +22,54 @@ main .banner img.banner-img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+main .ofertas h3 {
+    font-size: 28px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646464;
+}
+
+main .cartoes-oferta .cartao {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 15px -1px #0006;
+    background:#fff;
+    margin: 10px;
+}
+
+main .cartoes-oferta .cartao .img {
+    padding-top: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+main .cartoes-oferta .cartao h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #005a93;
+    font-size: 16px;
+    line-height: 1.1em;
+    padding: 0 20px;
+    text-align: center;
+}
+main .cartoes-oferta .cartao .valor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #005a93;
+    font-size: 30px;
+    line-height: 1em;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main .cartoes-oferta .cartao sub,
+main .cartoes-oferta .cartao sup,
+main .cartoes-oferta .cartao span{
+    font-size: 0.5em;
 }
