@@ -1,3 +1,19 @@
 #cartao-1 > .img {
     background-image: url('../imagens/cartao-1.png');
 }
+
+#cartao-2 > .img {
+    background-image: url('../imagens/cartao-2.jpeg');
+}
+#cartao-3 > .img {
+    background-image: url('../imagens/cartao-3.jpg');
+}
+#cartao-4 > .img {
+    background-image: url('../imagens/cartao-4.jpg');
+}
+#cartao-5 > .img {
+    background-image: url('../imagens/cartao-5.jpg');
+}
+#cartao-6 > .img {
+    background-image: url('../imagens/cartao-6.jpg');
+}

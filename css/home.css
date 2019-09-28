@@ -62,14 +62,76 @@ main .cartoes-oferta .cartao .valor {
     font-weight: bold;
     text-decoration: none;
     color: #005a93;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1em;
-    padding: 0 20px;
+    padding: 0 15px;
     text-align: center;
+    white-space: nowrap;
 }
 
 main .cartoes-oferta .cartao sub,
 main .cartoes-oferta .cartao sup,
 main .cartoes-oferta .cartao span{
     font-size: 0.5em;
+}
+
+main .contato {
+    position: relative;
+    background: #005a93;
+    padding: 20px;
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+
+main .contato .texto,
+main .contato .formulario,
+main .contato .botao{
+    position: relative;
+    width: 33.33%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    float: left;
+    height: 200px;
+}
+
+main .contato .texto h2{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+main .contato .texto P{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main .contato .formulario input{
+    width: 100%;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-style: italic;
+    font-size: 18px;
+    border:none;
+    box-shadow: 0 1px 0 2px #00000045;
+    margin-top: 30px;
+}
+
+main .contato .botao button {
+    width: 100%;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-style: italic;
+    font-size: 18px;
+    border:none;
+    box-shadow: 0 1px 0 2px #00000045;
+    margin-top: 60px;
+    background: #f7a521;
 }
