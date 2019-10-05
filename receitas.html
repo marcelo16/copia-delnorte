@@ -8,6 +8,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/delnorte.css">
+    <style>
+        .limite-largura.container {
+            padding: 50px 0;
+        }
+        .container > .item {
+            min-width:340px;
+            max-width: 340px;
+            flex-basis: 340px;
+            padding: 10px;
+        }
+        .container > .item img {
+            max-width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,8 +55,8 @@
 
     <main>
         <div>
-            <div class="limite-largura">
-                <div>
+            <div class="limite-largura container">
+                <div class="item">
                     <img src="https://img.itdg.com.br/tdg/images/recipes/000/138/558/325115/325115_original.jpg?mode=crop&width=710&height=400" alt="">
                     <p>
                         <b>LASANHA TRADICIONAL </b><br>
