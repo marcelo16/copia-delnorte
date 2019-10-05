@@ -1,0 +1,24 @@
+main h3 {
+    font-size: 28px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646464;
+}
+
+main .galpao {
+    max-width: 500px;
+    width: 50vw;
+    height: auto;
+    float: left;
+    margin: 15px;
+}
+
+main p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646464;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.4em;
+    text-align: justify;
+}
