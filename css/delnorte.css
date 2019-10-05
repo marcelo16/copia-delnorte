@@ -15,7 +15,12 @@ html, body {
     overflow: hidden;
 }
 
-header {
+body {
+    overflow-y: auto;
+}
+
+header,
+footer {
     position: relative;
     width: 100%;
     height: auto;
