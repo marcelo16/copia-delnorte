@@ -103,3 +103,43 @@ header .barra-menu .menu-superior a.link:hover {
     background: #005a93;
     color: #fff;
 }
+
+footer .limite-largura div {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: auto;
+    padding: 20px;
+}
+
+footer .limite-largura div h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7a521;
+    font-size: 22px;
+}
+
+footer .limite-largura div p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #646464;
+    font-size: 20px;
+}
+
+footer > div {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+footer div.copy {
+    background: #005a93;
+}
+
+footer div.copy .limite-largura div {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
