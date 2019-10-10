@@ -5,4 +5,6 @@
 > no deccorer do curso assim como exemplicar o uso dessas competencias no mercado de trabalho.
 
 > Orientador: Geandre Miranda 
+
 > Designer: Marcelo Lima Da Silva
+
