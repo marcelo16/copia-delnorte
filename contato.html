@@ -8,6 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/delnorte.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <style>
+    .container > .item {
+        min-width:350px;
+        max-width: 550px;
+        flex-basis: 550px;
+    }
+    </style>
 </head>
 
 <body>
@@ -41,8 +49,26 @@
 
     <main>
         <div>
-            <div class="limite-largura">
-                <!-- CONTEUDO -->
+            <div class="limite-largura container">
+                <div class="item">
+                    <form>
+                        <div class="label">Nome Completo</div>
+                        <input type="text" name="nome" placeholder="João Ninguem">
+
+                        <div class="label">Email</div>
+                        <input type="email" name="email" placeholder="contato@email.com">
+
+                        <div class="label">Assunto</div>
+                        <input type="text" name="assunto" placeholder="Informações a respeito de...">
+
+                        <div class="label">Mensagem</div>
+                        <textarea name="mensagem" placeholder="Detalhes..." rows="6"></textarea>
+
+                        <div class="label"></div>
+                        <button>ENVIAR</button>
+
+                    </form>
+                </div>
             </div>
         </div>
     </main>
